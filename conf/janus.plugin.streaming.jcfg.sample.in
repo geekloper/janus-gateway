@@ -205,3 +205,15 @@ file-ondemand-sample: {
 	#rtsp_user = "username"
 	#rtsp_pwd = "password"
 #}
+
+theta-rpi: {
+    type = "rtp"
+    id = 1
+    description = "Theta"
+    audio = false
+    video = true
+    videoport = 8080
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
+} 
