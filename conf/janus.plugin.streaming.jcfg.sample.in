@@ -206,14 +206,74 @@ file-ondemand-sample: {
 	#rtsp_pwd = "password"
 #}
 
-theta-rpi: {
+theta-rpi-1: {
     type = "rtp"
-    id = 69
-    description = "Theta by geekloper"
+    id = 5
+    description = "Theta by geekloper 42C028 "
     audio = false
     video = true
     videoport = 8080
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42e028;packetization-mode=1"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
 } 
+
+theta-rpi-2: {
+    type = "rtp"
+    id = 6
+    description = "Theta by geekloper 8188 "
+    audio = false
+    video = true
+    videoport = 8188
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+}
+
+theta-rpi-3: {
+    type = "rtp"
+    id = 7
+    description = "Theta by geekloper 8088 "
+    audio = false
+    video = true
+    videoport = 8088
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+}
+
+theta-rpi-4: {
+    type = "rtp"
+    id = 7
+    description = "Theta by geekloper 8004 "
+    audio = false
+    video = true
+    videoport = 8004
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+}
+
+theta-rpi-5: {
+    type = "rtp"
+    id = 8
+    description = "Theta by geekloper 5004"
+    audio = false
+    video = true
+    videoport = 5004
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+}
+
+theta-rpi-6: {
+    type = "rtp"
+    id = 9
+    description = "Theta by geekloper 7088"
+    audio = false
+    video = true
+    videoport = 7088
+    videopt = 96
+    videortpmap = "H264/90000"
+    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+}
