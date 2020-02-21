@@ -212,7 +212,7 @@ theta-rpi: {
     description = "Theta"
     audio = false
     video = true
-    videoport = 8080
+    videoport = 8004
     videopt = 96
     videortpmap = "H264/90000"
     videofmtp = "profile-level-id=42e028;packetization-mode=1"
