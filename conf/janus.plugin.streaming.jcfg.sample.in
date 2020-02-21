@@ -215,7 +215,7 @@ theta-rpi-1: {
     videoport = 8080
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 } 
 
 theta-rpi-2: {
@@ -227,7 +227,7 @@ theta-rpi-2: {
     videoport = 8188
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 }
 
 theta-rpi-3: {
@@ -239,7 +239,7 @@ theta-rpi-3: {
     videoport = 8088
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 }
 
 theta-rpi-4: {
@@ -251,7 +251,7 @@ theta-rpi-4: {
     videoport = 8004
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 }
 
 theta-rpi-5: {
@@ -263,7 +263,7 @@ theta-rpi-5: {
     videoport = 5004
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 }
 
 theta-rpi-6: {
@@ -275,5 +275,5 @@ theta-rpi-6: {
     videoport = 7088
     videopt = 96
     videortpmap = "H264/90000"
-    videofmtp = "profile-level-id=42C028;packetization-mode=1"
+    videofmtp = "profile-level-id=42e028;packetization-mode=1"
 }
