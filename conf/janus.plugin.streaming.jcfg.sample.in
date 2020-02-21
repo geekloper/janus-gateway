@@ -93,7 +93,7 @@ general: {
 gstreamer-sample: {
 	type = "rtp"
 	id = 1
-	description = "Opus/VP8 live stream coming from gstreamer"
+	description = "Opus/VP8 live stream coming from gstreamer (perpelou)"
 	audio = true
 	video = true
 	audioport = 5002
@@ -108,7 +108,7 @@ gstreamer-sample: {
 file-live-sample: {
 	type = "live"
 	id = 2
-	description = "a-law file source (radio broadcast)"
+	description = "a-law file source (radio broadcast) (perpelou)"
 	filename = "@streamdir@/radio.alaw"
 	audio = true
 	video = false
