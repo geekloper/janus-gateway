@@ -197,12 +197,10 @@ general: {
 #
 rtsp-test: {
 	type = "rtsp"
-	id = 99
+	id = 1
 	description = "RTSP THETA TEST"
 	audio = false
 	video = true
 	url = "rtsp://10.239.238.171:8554/live?resolution=1024x512"
-	#rtsp_user = "username"
-	#rtsp_pwd = "password"
 }
 
